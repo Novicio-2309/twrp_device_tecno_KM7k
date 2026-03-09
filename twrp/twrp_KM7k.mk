@@ -5,7 +5,7 @@
 #
 
 # Inherit from TECNO-KM7k device
-$(call inherit-product, device/tecno/KM7k/device.mk)
+$(call inherit-product, device/tecno/KM7k/twrp/device.mk)
 
 # Inherit some common recovery stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
