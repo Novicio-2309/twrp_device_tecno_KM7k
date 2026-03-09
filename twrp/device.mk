@@ -115,4 +115,4 @@ TARGET_RECOVERY_DEVICE_MODULES += \
     android.hardware.keymaster@4.1
 
 # Include common tree
-$(call inherit-product, device/tecno/KM7k/common.mk)
+$(call inherit-product, device/tecno/KM7k/twrp/common.mk)
