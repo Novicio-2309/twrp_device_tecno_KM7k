@@ -113,6 +113,3 @@ TW_RECOVERY_ADDITIONAL_RELINK_LIBRARY_FILES += \
 
 TARGET_RECOVERY_DEVICE_MODULES += \
     android.hardware.keymaster@4.1
-
-# Include common tree
-$(call inherit-product, device/tecno/KM7k/twrp/common.mk)
